@@ -1,0 +1,1 @@
+{"balance" :numerical, "account_no" :nominal, "weekday" :nominal, "details" :nominal, "p_differ" :nominal, "p_balance" :nominal, "difference" :numerical}
