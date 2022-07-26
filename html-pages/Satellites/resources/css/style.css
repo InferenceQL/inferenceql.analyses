@@ -1,0 +1,186 @@
+/* --------------- global settings --------------- */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Roboto, 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+}
+
+/* Hack: including this, even though we override it for the body tag. Handsontable looks to this
+to make spacing for the scrollbar instead of the scrollbar settings for its own divs, which we
+also set styles for */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  /*border-radius: 20px;*/
+}
+
+body::-webkit-scrollbar:horizontal {
+  height: 16px;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb:horizontal, body::-webkit-scrollbar-thumb:vertical {
+  border-radius: 20px;
+}
+
+div {
+  margin: 0px
+}
+
+#loading-text {
+  padding: 0px 15px;
+  line-height: 4;
+  color: #333;
+  background-color: #f5f5f5;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* --------------- styling for vega-vizualization --------------- */
+
+#viz-container {
+  display: table;
+}
+
+#vg-tooltip-element.vg-tooltip.custom-theme table {
+  font-size: .75rem;
+}
+
+/* --------------- styling for handsontables --------------- */
+
+#table-container {
+  display: table;
+  background: #f5f5f5;
+  overflow: hidden;
+  border-radius: 4px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1JyBoZWlnaHQ9JzUnPgo8cmVjdCB3aWR0aD0nNScgaGVpZ2h0PSc1JyBmaWxsPScjZmZmJy8+CjxyZWN0IHdpZHRoPScxJyBoZWlnaHQ9JzEnIGZpbGw9JyNjY2MnLz4KPC9zdmc+");
+  background-repeat: repeat;
+}
+
+#table-container ::-webkit-scrollbar {
+  width: 5px;
+}
+
+#table-container ::-webkit-scrollbar:horizontal {
+  height: 5px;
+}
+
+.ht_master tr td {
+  font-size: 13px;
+}
+
+.handsontable th {
+  font-size: 13px;
+}
+
+/* --------------- styling for js-model code view --------------- */
+
+#program-display {
+  min-width: 650px;
+  margin: 0px;
+  padding: 8px;
+  font-size: .875rem;
+  background-color: #f8f8f8;
+  border: none;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+#program-display code {
+  display: block;
+  min-width: 3000px;
+  background-color: #f8f8f8;
+  border: none;
+  padding: 0px;
+  font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+/* Changing the height of re-com tabs component */
+.nav-tabs > li > a {
+  line-height: 0.5;
+}
+
+/* --------------- tiny js-model --------------- */
+
+.tiny-js-model {
+  cursor: pointer;
+}
+
+.tiny-js-model:hover {
+  background-color: lightgrey;
+}
+
+.column-chip {
+  margin-right: 2px;
+  color: #333;
+  background: #eee;
+  border: 1px solid #ddd;
+  padding: 0.1em 0.3em;
+  display: inline-block;
+}
+
+.column-grouping {
+  border-left: 1px solid #aaaaaa;
+  padding-left: 4px;
+}
+
+.column-grouping-section:after {
+  /* TODO: fix this, not working.
+  position: absolute;
+  bottom: 0;
+  height: 150px;
+  width: 275px;
+  content: "";
+  background: linear-gradient(to top,
+     rgba(255,255,255, 1) 20%,
+     rgba(255,255,255, 0) 80%
+  );
+  pointer-events: none; /* so the text is still selectable */
+  */
+}
+
+/* --------------- js-model program cluster selection --------------- */
+
+.cluster-clickable {
+  cursor: pointer;
+}
+
+.cluster-clickable:not(.cluster-selected):hover {
+  background-color: lightgrey;
+  box-shadow: 0px 0px 5px 0px lightgrey;
+  padding: 2px 0px;
+}
+
+.cluster-selected {
+  background-color: #d3deed;
+  box-shadow: 0px 0px 5px 0px #d3deed;
+  padding: 2px 0px;
+}
+
+.handsontable .blue-highlight {
+  background-color: #d3deed;
+}
+
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+  user-select: none;
+}
+
+/* --------------- background fills --------------- */
+
+.dots-1 { background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMCcgaGVpZ2h0PScxMCc+CiAgPHJlY3Qgd2lkdGg9JzEwJyBoZWlnaHQ9JzEwJyBmaWxsPSd3aGl0ZScgLz4KICA8cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nMScgaGVpZ2h0PScxJyBmaWxsPSdibGFjaycgLz4KPC9zdmc+"); background-repeat: repeat; }
+
+.smalldot { background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1JyBoZWlnaHQ9JzUnPgo8cmVjdCB3aWR0aD0nNScgaGVpZ2h0PSc1JyBmaWxsPScjZmZmJy8+CjxyZWN0IHdpZHRoPScxJyBoZWlnaHQ9JzEnIGZpbGw9JyNjY2MnLz4KPC9zdmc+"); background-repeat: repeat; }
