@@ -1,0 +1,34 @@
+/* Views */
+
+{{#views}}
+function view_{{num}}() {
+  let cluster_id = categorical([{{cluster-probs}}]);
+{{#clusters}}
+{{#first}}
+  if (cluster_id == {{num}}) {
+{{/first}}
+{{^first}}
+  } else if (cluster_id == {{num}}) {
+{{/first}}
+    return {
+{{#parameters}}
+     "{{name}}": {{#gaussian}}gaussian({{mu}}, {{sigma}}){{/gaussian}}{{#categorical}}categorical([{{weights}}]){{/categorical}}{{^last}},{{/last}}
+{{/parameters}}
+    };{{/clusters}}
+  }
+}
+
+{{/views}}
+/* Model */
+
+{{#model}}
+function model() {
+  let row = {{{#splats}}{{^last}}...view_{{num}}(), {{/last}}{{#last}}...view_{{num}}(){{/last}}{{/splats}}};
+
+  /*
+   * map_categorical() maps integer values in categorical columns
+   * to actual category values for each categorical column.
+   */
+  return map_categorical(row);
+}
+{{/model}}
