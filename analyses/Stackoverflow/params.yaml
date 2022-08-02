@@ -1,0 +1,44 @@
+dataset_name: Stackoverflow
+seed: 42
+sample_count: 12
+parallel:
+  # To limit the number of jobs GNU Parallel spawns use add the flag `--jobs n`.
+  flags: >-
+    --verbose
+nullify:
+  # Entries added here will be treated as null. For example, to treat "NaN" and
+  # "missing" as null uncomment the following two lines:
+  # - NaN
+  - "Prefer not to say"
+schema:
+  # Key/value pairs can be added here to explicitly override the inferred schema
+  # for each column. The available types are as follows: numerical, nominal, and ignore.
+  # For example, to force the "age" column to be treated as a
+  # numerical uncomment the following line:
+  Country: nominal
+  SalaryUSD: numerical
+  YearsCode: numerical
+  YearsCodeProfessional: numerical
+loom:
+  extra_passes: 1
+cgpm:
+  #iterations: 1
+  minutes: 90
+clojurecat:
+  iterations: 150
+qc:
+  # Set this to the number of virtual samples desired in QC plots.
+  # When not set, the plots will display the same number of virual samples as
+  # observed data points.
+  sample_count: null
+  # Set this to specify the columns visualized in QC plots.
+  # When not set, up to 8 columns--taken from the schema--will be visualized.
+  columns: ["YearsCode", "YearsCodeProfessional", "Background", "SalaryUSD", "Age", "Country", "Python", "SQL", "R", "Julia", "Clojure"]
+  # This limits the number of categories shown for categorical variables in
+  # 2-dimensional QC plots. Set this to null for no limit.
+  category_limit: 10
+mi:
+  configs:
+    # Set MI configs here. If not set, the configs are chosen at random.
+    # For example, to set the config for health_status.
+    # health_status: ["c) Average", "b) Below average"]
