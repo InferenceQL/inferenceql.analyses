@@ -9,7 +9,7 @@ CAVEAT: This page is under construction and *not* ready.
 [Data](https://github.com/InferenceQL/inferenceql.analyses/tree/public/analyses/dha/data.csv) | [Models](https://github.com/InferenceQL/inferenceql.analyses/tree/public/analyses/dha/merged.json) | [QC](https://InferenceQL.github.io/inferenceql.analyses/html-pages/dha/qc-dashboard.html)
 #### Indian bank transactions (subset)
 [Data](https://github.com/InferenceQL/inferenceql.analyses/tree/public/analyses/indian_transactions/data.csv) | [Models](https://github.com/InferenceQL/inferenceql.analyses/tree/public/analyses/indian_transactions/merged.json) | [QC](https://InferenceQL.github.io/inferenceql.analyses/html-pages/indian_transactions/qc-dashboard.html)
-#### [Gapminder](https://www.gapminder.org/data/)
+#### Macroeconomic data from [Gapminder](https://www.gapminder.org/data/)
 [Data](https://github.com/InferenceQL/inferenceql.analyses/tree/public/analyses/Gapminder/data.csv) | [Models](https://github.com/InferenceQL/inferenceql.analyses/tree/public/analyses/Gapminder/merged.json) | [QC](https://InferenceQL.github.io/inferenceql.analyses/html-pages/Gapminder/qc-splom.html)
 
 All datasets above were released by third parties under CC or Apache Licenses. All analyses were published under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
