@@ -1,0 +1,5 @@
+{:data #csv "ignored.csv"
+ :schema  #edn "schema.edn"
+ :js-model-template #txt "templates/model.js.mustache"
+
+ :enable-debug-interceptors false}
