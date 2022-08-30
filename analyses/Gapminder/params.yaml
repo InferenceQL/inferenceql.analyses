@@ -42,3 +42,11 @@ mi:
     # Set MI configs here. If not set, the configs are chosen at random.
     # For example, to set the config for health_status.
     # health_status: ["c) Average", "b) Below average"]
+    #
+database:
+  table_name: data
+  table_path: data/nullified.csv
+  model_name: baseline_model
+  model_path: data/xcat/complete/sample.0.edn
+  # model_path: data/xcat/merged.edn
+  # model_path: data/sppl/merged.json
