@@ -1,0 +1,1 @@
+{"age" :nominal, "race" :nominal, "BMI" :numerical, "exercise" :nominal, "gender" :nominal, "health_status" :nominal, "state" :nominal, "smoker" :nominal, "fever_symptoms" :nominal, "household_size" :nominal, "care_covid_sought" :nominal, "respiratory_symptoms" :nominal}

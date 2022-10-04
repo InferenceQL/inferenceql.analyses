@@ -1,0 +1,942 @@
+age,race,BMI,exercise,gender,health_status,state,smoker,fever_symptoms,household_size,care_covid_sought,respiratory_symptoms
+60-69,White,27.0,yes,Female,c) Average,NC,never,no,2-3,no,no
+21-29,White,19.0,yes,Female,e) Well above average,NC,never,no,2-3,no,no
+60-69,White,34.0,yes,Female,d) Above average,NC,never,no,2-3,no,no
+30-39,Asian,21.0,yes,Male,e) Well above average,CA,never,no,2-3,no,no
+50-59,White,33.0,yes,Male,d) Above average,NC,never,no,>3,no,no
+60-69,White,35.0,yes,Male,b) Below average,NY,never,no,>3,no,no
+60-69,White,32.0,yes,Female,d) Above average,FL,never,no,2-3,no,no
+60-69,White,30.0,yes,Female,e) Well above average,MA,never,no,2-3,no,no
+50-59,White,23.0,yes,Female,b) Below average,NC,never,yes,2-3,no,no
+60-69,Asian,24.0,yes,Female,d) Above average,CA,former,no,2-3,no,no
+40-49,White,18.0,no,Female,e) Well above average,NC,former,yes,2-3,no,no
+50-59,White,37.0,yes,Female,c) Average,NC,never,no,>3,no,no
+70-79,White,26.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+60-69,White,22.0,no,Female,c) Average,CA,former,no,2-3,no,no
+40-49,White,26.0,yes,Male,e) Well above average,CA,former,no,2-3,no,no
+40-49,White,20.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+50-59,Asian,31.0,yes,Male,c) Average,CA,never,no,2-3,no,no
+18-20,White,23.0,yes,Male,d) Above average,NC,former,no,2-3,no,no
+40-49,White,22.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+70-79,White,46.0,no,Female,c) Average,WA,former,no,2-3,no,no
+30-39,White,23.0,no,Female,c) Average,CA,never,yes,>3,yes,yes
+30-39,White,36.0,no,Male,c) Average,NC,never,no,2-3,no,no
+30-39,White,32.0,no,Male,d) Above average,NC,never,no,2-3,no,no
+21-29,White,18.0,yes,Male,d) Above average,CA,never,no,>3,no,no
+50-59,White,35.0,no,Female,b) Below average,NC,never,no,>3,no,no
+50-59,White,31.0,yes,Female,d) Above average,NC,never,no,2-3,no,no
+30-39,White,22.0,yes,Male,e) Well above average,NC,never,no,2-3,no,yes
+60-69,White,29.0,no,Male,d) Above average,PA,never,no,2-3,no,no
+21-29,Asian,,no,Female,c) Average,CA,never,no,2-3,no,yes
+60-69,White,24.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+70-79,White,31.0,yes,Male,d) Above average,CA,former,no,2-3,no,no
+50-59,White,24.0,yes,Female,d) Above average,CA,never,yes,>3,no,no
+21-29,White,24.0,yes,Male,d) Above average,CA,never,yes,2-3,no,no
+50-59,White,34.0,yes,Female,c) Average,NC,never,no,2-3,no,no
+21-29,Asian,24.0,yes,Male,d) Above average,CA,never,yes,1,no,no
+70-79,White,27.0,no,Female,d) Above average,CA,never,no,2-3,no,no
+21-29,Other,21.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+70-79,White,24.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+21-29,White,22.0,yes,Male,c) Average,CA,ecig,no,>3,no,no
+60-69,White,23.0,yes,Female,e) Well above average,CA,never,no,>3,no,no
+60-69,White,24.0,yes,Female,d) Above average,NC,former,no,,no,no
+30-39,White,26.0,yes,Female,d) Above average,CA,never,no,1,no,no
+80-older,White,23.0,yes,Male,e) Well above average,CA,never,no,1,no,no
+40-49,White,38.0,yes,Female,d) Above average,NC,never,yes,>3,no,yes
+30-39,White,27.0,no,Female,d) Above average,CA,never,no,2-3,no,no
+40-49,Asian,25.0,yes,Male,d) Above average,CA,former,no,2-3,no,no
+30-39,White,22.0,yes,Female,d) Above average,CA,never,yes,2-3,no,no
+60-69,White,41.0,no,Male,b) Below average,CA,never,yes,2-3,no,yes
+50-59,White,19.0,yes,Female,e) Well above average,CA,never,no,>3,no,no
+50-59,White,26.0,yes,Female,c) Average,NC,never,yes,2-3,no,no
+40-49,White,19.0,yes,Female,e) Well above average,PA,never,no,>3,no,no
+50-59,White,22.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+21-29,White,28.0,yes,Male,d) Above average,NC,never,no,2-3,no,no
+40-49,White,35.0,no,Male,c) Average,NC,former,no,>3,no,no
+50-59,White,,no,Male,a) Well below average,NY,never,no,2-3,no,no
+40-49,White,29.0,yes,Male,d) Above average,NC,never,no,>3,no,no
+60-69,White,21.0,yes,Female,e) Well above average,NC,former,no,>3,no,no
+50-59,Asian,27.0,yes,Female,d) Above average,NC,never,no,2-3,no,no
+60-69,White,22.0,yes,Female,d) Above average,PA,never,no,2-3,no,no
+21-29,White,23.0,yes,Female,c) Average,MO,never,no,>3,no,no
+40-49,White,26.0,no,Female,c) Average,CA,ecig,no,>3,no,no
+70-79,White,28.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+30-39,Other,29.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+70-79,White,35.0,yes,Female,c) Average,CA,never,no,2-3,no,no
+60-69,White,27.0,yes,Female,c) Average,NY,never,no,2-3,no,no
+70-79,White,23.0,yes,Male,d) Above average,MA,former,no,2-3,no,no
+40-49,White,24.0,yes,Male,e) Well above average,NC,never,no,>3,no,no
+40-49,White,27.0,yes,Male,c) Average,MA,never,no,>3,no,no
+30-39,White,20.0,no,Female,c) Average,CA,never,yes,>3,no,yes
+40-49,White,30.0,yes,Male,d) Above average,NC,former,no,2-3,no,no
+40-49,White,24.0,no,Male,d) Above average,CA,never,no,2-3,no,no
+60-69,White,29.0,no,Female,d) Above average,WA,never,no,2-3,no,no
+70-79,White,25.0,yes,Female,c) Average,WA,former,no,1,no,no
+30-39,Black,27.0,yes,Female,e) Well above average,CA,never,no,>3,no,no
+30-39,White,33.0,yes,Female,c) Average,NY,never,no,>3,no,no
+50-59,White,27.0,yes,Female,c) Average,FL,never,no,>3,yes,yes
+40-49,White,28.0,no,Female,c) Average,NC,never,no,>3,no,no
+40-49,White,28.0,yes,Female,d) Above average,WA,former,no,2-3,no,no
+40-49,White,22.0,yes,Male,d) Above average,NY,never,no,>3,no,no
+50-59,Asian,21.0,yes,Female,d) Above average,NY,never,no,2-3,no,yes
+40-49,White,19.0,no,Female,d) Above average,CA,never,no,>3,no,no
+50-59,White,24.0,no,Female,c) Average,NC,never,no,2-3,no,no
+40-49,White,23.0,no,Female,d) Above average,NC,never,yes,>3,yes,yes
+21-29,White,21.0,yes,Male,d) Above average,CA,never,no,>3,no,no
+40-49,White,22.0,no,Male,c) Average,AZ,never,no,>3,no,no
+30-39,White,27.0,yes,Male,d) Above average,NC,never,no,>3,no,no
+40-49,White,32.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+40-49,White,27.0,no,Male,c) Average,CA,never,no,2-3,no,no
+50-59,White,24.0,yes,Female,e) Well above average,MA,former,no,2-3,no,no
+40-49,White,23.0,no,Male,c) Average,CA,never,no,2-3,no,no
+60-69,White,36.0,yes,Male,b) Below average,CA,former,no,1,no,no
+40-49,Other,24.0,yes,Male,c) Average,CA,never,no,>3,no,no
+40-49,White,,yes,Female,e) Well above average,CA,never,yes,2-3,no,no
+40-49,White,,no,Male,c) Average,CA,never,no,2-3,no,no
+60-69,White,26.0,yes,Female,d) Above average,NC,never,no,2-3,no,no
+21-29,White,24.0,yes,Female,d) Above average,NC,never,yes,2-3,no,no
+30-39,White,23.0,yes,Male,e) Well above average,CA,never,no,1,no,no
+60-69,White,34.0,yes,Male,b) Below average,NY,never,no,>3,no,no
+40-49,White,29.0,no,Male,b) Below average,NC,former,yes,>3,no,no
+60-69,White,29.0,yes,Male,c) Average,NY,former,no,2-3,no,no
+50-59,White,28.0,no,Male,c) Average,CA,never,no,>3,no,no
+40-49,Asian,24.0,yes,Female,c) Average,CA,never,no,2-3,no,no
+70-79,White,27.0,yes,Male,d) Above average,FL,never,no,>3,no,no
+40-49,White,28.0,yes,Female,d) Above average,NC,never,no,2-3,no,no
+60-69,White,26.0,yes,Male,d) Above average,CA,never,no,>3,no,no
+30-39,White,23.0,yes,Male,d) Above average,NC,never,no,1,no,no
+40-49,White,29.0,yes,Male,d) Above average,NY,never,no,>3,no,no
+21-29,White,20.0,no,Male,c) Average,CA,never,no,2-3,no,no
+50-59,White,24.0,yes,Male,e) Well above average,NC,never,no,2-3,no,no
+21-29,White,24.0,yes,Male,d) Above average,CA,former,no,>3,no,no
+50-59,White,27.0,yes,Male,c) Average,CA,never,no,2-3,no,no
+50-59,White,24.0,yes,Male,d) Above average,CA,never,no,>3,no,no
+30-39,White,20.0,no,Female,c) Average,CA,never,yes,>3,yes,yes
+60-69,White,21.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+50-59,Other,26.0,no,Female,c) Average,CA,never,no,1,yes,yes
+70-79,White,25.0,yes,Female,d) Above average,NC,never,no,2-3,no,no
+21-29,White,20.0,no,Male,c) Average,NC,never,no,1,no,no
+50-59,White,26.0,yes,Female,c) Average,CA,never,no,2-3,no,no
+50-59,White,27.0,no,Male,c) Average,CA,never,no,2-3,no,yes
+30-39,White,46.0,yes,Male,c) Average,CA,current,yes,>3,no,yes
+40-49,White,19.0,yes,Female,d) Above average,WA,never,no,>3,no,yes
+50-59,White,41.0,yes,Male,c) Average,MA,never,no,2-3,no,no
+70-79,White,44.0,yes,Male,d) Above average,FL,never,no,2-3,no,no
+50-59,White,19.0,no,Female,d) Above average,CA,never,no,1,no,yes
+60-69,White,23.0,no,Male,c) Average,CA,never,no,2-3,no,no
+50-59,White,28.0,yes,Male,c) Average,WA,never,no,>3,no,no
+60-69,White,18.0,yes,Female,e) Well above average,NY,never,no,1,no,no
+50-59,White,30.0,yes,Male,e) Well above average,MA,never,no,1,no,no
+60-69,White,23.0,yes,Male,e) Well above average,MA,never,no,2-3,no,no
+70-79,White,32.0,yes,Male,d) Above average,CA,former,no,2-3,no,no
+40-49,White,26.0,yes,Female,c) Average,NC,never,no,>3,no,no
+60-69,White,25.0,yes,Male,d) Above average,FL,former,no,>3,no,no
+40-49,White,25.0,no,Female,c) Average,MA,never,no,>3,no,no
+50-59,White,27.0,yes,Male,e) Well above average,TX,never,no,>3,no,no
+18-20,White,19.0,no,Female,c) Average,MA,never,no,>3,no,no
+30-39,White,24.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+40-49,White,25.0,yes,Male,d) Above average,PA,former,no,1,no,no
+30-39,White,31.0,yes,Female,d) Above average,MA,current,yes,1,no,no
+50-59,White,27.0,yes,Female,d) Above average,MO,never,no,>3,no,no
+21-29,White,19.0,no,Female,c) Average,NC,former,no,2-3,no,no
+30-39,White,29.0,yes,Male,c) Average,MA,never,no,2-3,no,no
+30-39,White,22.0,yes,Female,d) Above average,MA,never,no,2-3,no,no
+50-59,White,27.0,yes,Male,,TX,never,no,>3,no,no
+70-79,White,31.0,yes,Male,c) Average,CA,former,no,2-3,no,no
+70-79,White,32.0,yes,Female,d) Above average,MO,never,no,1,no,no
+60-69,White,25.0,yes,Male,e) Well above average,MA,never,no,1,no,no
+50-59,White,23.0,yes,Male,e) Well above average,CA,never,no,>3,no,no
+50-59,White,15.0,yes,Male,d) Above average,CA,never,no,>3,no,no
+50-59,White,38.0,yes,Male,c) Average,MO,former,no,>3,no,no
+50-59,White,24.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+60-69,White,21.0,yes,Male,e) Well above average,CA,never,no,>3,no,no
+30-39,Asian,22.0,yes,Female,c) Average,TX,never,no,2-3,no,no
+50-59,White,27.0,no,Female,c) Average,MO,never,no,2-3,no,no
+40-49,White,27.0,yes,Male,d) Above average,WA,never,no,>3,no,no
+40-49,White,22.0,yes,Female,c) Average,CA,never,no,>3,no,no
+70-79,White,22.0,yes,Male,e) Well above average,CA,never,no,2-3,no,no
+40-49,White,24.0,yes,Male,d) Above average,CA,former,no,2-3,no,yes
+70-79,White,22.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+40-49,White,27.0,yes,Male,d) Above average,CA,never,no,>3,no,no
+60-69,White,27.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+30-39,White,37.0,yes,Male,b) Below average,MA,never,no,2-3,no,no
+40-49,Black,35.0,no,Female,c) Average,CA,never,no,2-3,no,yes
+50-59,White,24.0,yes,Female,e) Well above average,NC,former,no,2-3,no,no
+40-49,White,27.0,no,Female,c) Average,MO,never,no,>3,no,no
+50-59,White,30.0,no,Male,d) Above average,MA,never,no,1,no,no
+50-59,White,25.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+50-59,White,25.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+70-79,White,24.0,yes,Female,e) Well above average,CA,former,no,1,no,no
+70-79,White,28.0,yes,Male,e) Well above average,CA,never,no,2-3,no,no
+70-79,White,29.0,no,Male,b) Below average,NC,never,yes,2-3,no,yes
+70-79,White,21.0,yes,Male,d) Above average,CA,never,yes,2-3,no,no
+50-59,White,22.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+70-79,White,22.0,yes,Female,e) Well above average,MO,former,no,2-3,no,no
+60-69,White,27.0,no,Male,c) Average,CA,never,no,1,no,no
+80-older,White,40.0,no,Female,d) Above average,CA,former,no,>3,no,no
+60-69,White,31.0,yes,Male,d) Above average,NC,never,no,2-3,no,no
+30-39,White,20.0,yes,Female,e) Well above average,MA,never,no,1,no,no
+50-59,White,25.0,yes,Female,d) Above average,NC,former,no,1,no,no
+30-39,White,23.0,yes,Female,d) Above average,MA,never,no,2-3,no,no
+80-older,White,27.0,no,Male,b) Below average,CA,never,no,2-3,no,no
+40-49,White,24.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+70-79,White,38.0,no,Female,c) Average,MO,never,no,2-3,no,no
+50-59,White,30.0,yes,Female,d) Above average,MO,never,no,>3,no,no
+40-49,White,33.0,yes,Female,c) Average,MO,never,no,2-3,no,no
+40-49,Other,26.0,yes,Female,c) Average,MO,current,no,2-3,no,no
+50-59,White,32.0,no,Female,e) Well above average,MO,never,no,>3,no,no
+21-29,White,22.0,yes,Female,c) Average,NC,never,no,>3,no,no
+40-49,White,41.0,no,Female,b) Below average,MO,never,no,>3,no,no
+60-69,White,22.0,yes,Female,d) Above average,MO,never,no,2-3,no,no
+40-49,White,31.0,yes,Female,d) Above average,MO,never,no,2-3,no,no
+40-49,White,,yes,Male,d) Above average,CA,never,no,>3,no,no
+50-59,White,38.0,yes,Female,c) Average,MO,former,no,>3,no,no
+60-69,White,20.0,no,Female,c) Average,MA,never,no,2-3,no,no
+50-59,White,,no,Female,d) Above average,MO,former,no,2-3,no,no
+60-69,White,26.0,no,Male,e) Well above average,NY,never,no,1,no,no
+30-39,White,22.0,yes,Female,c) Average,NC,never,yes,,no,no
+30-39,Asian,18.0,no,Female,c) Average,MA,never,no,2-3,no,no
+40-49,Asian,20.0,no,Female,b) Below average,CA,never,no,2-3,no,yes
+50-59,White,46.0,no,Female,b) Below average,FL,never,no,2-3,no,yes
+30-39,White,24.0,no,Male,d) Above average,MA,never,yes,2-3,yes,yes
+60-69,White,21.0,yes,Female,e) Well above average,NY,never,no,2-3,no,no
+50-59,White,38.0,yes,Female,b) Below average,MO,never,no,>3,no,no
+21-29,White,21.0,yes,Male,e) Well above average,CA,never,no,2-3,no,no
+70-79,White,27.0,yes,Male,e) Well above average,NY,never,no,2-3,no,no
+30-39,White,17.0,yes,Female,e) Well above average,MO,never,no,>3,no,no
+30-39,White,28.0,yes,Female,c) Average,PA,former,no,1,no,no
+40-49,White,32.0,no,Male,c) Average,WA,never,no,>3,no,no
+21-29,White,29.0,yes,Female,d) Above average,PA,never,no,2-3,no,no
+21-29,White,25.0,yes,Female,d) Above average,PA,former,no,2-3,no,no
+50-59,White,21.0,yes,Female,e) Well above average,MO,never,no,2-3,no,no
+50-59,White,24.0,yes,Male,e) Well above average,CA,never,no,>3,no,no
+50-59,Asian,21.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+60-69,White,27.0,no,Female,a) Well below average,CA,former,no,2-3,no,no
+40-49,White,,yes,Female,c) Average,NY,never,no,2-3,no,no
+50-59,Asian,,no,Female,e) Well above average,CA,never,no,2-3,no,no
+30-39,White,32.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+40-49,White,24.0,no,Female,c) Average,MA,never,no,>3,no,no
+40-49,White,23.0,yes,Male,e) Well above average,MA,never,no,2-3,no,no
+60-69,White,26.0,yes,Male,e) Well above average,CA,never,no,2-3,no,no
+50-59,Asian,25.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+70-79,White,22.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+60-69,White,28.0,yes,Male,d) Above average,MO,never,no,2-3,no,no
+30-39,White,29.0,no,Female,d) Above average,MA,former,no,1,no,no
+60-69,White,32.0,no,Female,d) Above average,MO,former,no,2-3,no,no
+60-69,White,21.0,yes,Female,e) Well above average,NY,never,no,2-3,no,no
+70-79,White,24.0,yes,Female,e) Well above average,MO,never,no,2-3,no,no
+30-39,White,27.0,yes,Female,c) Average,TX,never,no,1,no,no
+30-39,Other,33.0,yes,Male,e) Well above average,TX,never,no,2-3,no,no
+60-69,White,23.0,no,Female,d) Above average,MO,never,no,2-3,no,no
+40-49,White,19.0,yes,Female,d) Above average,WA,never,no,1,yes,no
+40-49,White,37.0,no,Female,c) Average,PA,never,no,2-3,no,no
+50-59,White,29.0,no,Female,c) Average,PA,never,no,>3,no,no
+21-29,White,24.0,yes,Female,c) Average,FL,never,yes,>3,no,no
+21-29,White,20.0,yes,Female,d) Above average,NC,never,no,2-3,no,no
+50-59,White,32.0,no,Female,d) Above average,TX,never,no,2-3,no,no
+50-59,White,23.0,no,Female,d) Above average,MO,never,yes,2-3,no,no
+50-59,White,37.0,no,Male,c) Average,PA,never,no,>3,no,no
+40-49,White,21.0,yes,Female,e) Well above average,CA,never,no,1,no,no
+70-79,White,,yes,Female,e) Well above average,PA,never,no,2-3,no,no
+60-69,White,26.0,yes,Male,d) Above average,CA,never,no,>3,no,no
+60-69,White,26.0,yes,Female,c) Average,CA,never,no,2-3,no,no
+50-59,White,29.0,no,Female,c) Average,NC,never,no,2-3,no,no
+30-39,White,23.0,yes,Female,c) Average,CA,former,no,2-3,no,no
+21-29,White,20.0,yes,Female,d) Above average,CA,never,no,2-3,no,yes
+70-79,White,25.0,yes,Male,c) Average,MA,former,no,>3,no,no
+40-49,White,28.0,no,Female,e) Well above average,NY,current,no,2-3,yes,no
+21-29,White,20.0,no,Male,d) Above average,CA,never,no,2-3,no,no
+30-39,White,33.0,yes,Male,d) Above average,MA,never,no,1,no,no
+30-39,Asian,23.0,no,Female,e) Well above average,CA,never,no,2-3,no,no
+40-49,White,25.0,yes,Male,c) Average,CA,never,no,2-3,no,no
+50-59,White,23.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+50-59,White,21.0,yes,Female,c) Average,PA,never,no,>3,no,no
+50-59,White,26.0,no,Female,c) Average,MO,former,no,>3,no,no
+60-69,White,34.0,yes,Female,c) Average,CA,never,no,2-3,no,yes
+40-49,White,22.0,yes,Female,e) Well above average,MO,never,no,>3,no,no
+30-39,White,22.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+70-79,White,28.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+60-69,White,27.0,no,Female,c) Average,WA,former,no,1,no,no
+30-39,White,34.0,no,Female,d) Above average,MA,former,yes,>3,no,no
+50-59,White,20.0,yes,Female,d) Above average,MO,never,no,2-3,no,no
+50-59,White,31.0,no,Female,d) Above average,MO,never,no,2-3,no,no
+50-59,Asian,19.0,yes,Male,c) Average,MA,never,no,2-3,no,no
+30-39,Other,28.0,no,Female,c) Average,NC,never,yes,2-3,no,yes
+50-59,White,23.0,yes,Female,e) Well above average,MA,former,no,1,no,no
+50-59,White,21.0,yes,Female,e) Well above average,MA,never,no,1,no,no
+40-49,Other,21.0,yes,Female,d) Above average,NY,former,yes,2-3,yes,yes
+40-49,White,32.0,yes,Male,c) Average,NC,former,no,2-3,no,no
+21-29,White,27.0,yes,Male,d) Above average,FL,never,no,>3,yes,no
+30-39,White,32.0,yes,Male,d) Above average,NC,never,no,2-3,no,no
+40-49,White,31.0,yes,Male,d) Above average,TX,never,no,2-3,no,no
+40-49,White,40.0,yes,Male,c) Average,CA,ecig,no,>3,no,no
+40-49,White,41.0,yes,Male,c) Average,CA,ecig,no,>3,no,no
+70-79,White,32.0,no,Female,b) Below average,CA,never,no,2-3,no,no
+40-49,White,32.0,yes,Male,d) Above average,TX,current,no,2-3,no,no
+21-29,Asian,27.0,yes,Female,d) Above average,TX,ecig,no,1,no,no
+50-59,White,21.0,yes,Female,c) Average,NC,never,no,2-3,no,no
+50-59,White,30.0,no,Female,c) Average,CA,former,no,2-3,no,no
+40-49,White,25.0,yes,Female,d) Above average,FL,former,no,2-3,no,no
+60-69,White,26.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+40-49,White,23.0,yes,Female,e) Well above average,NY,never,no,>3,no,no
+60-69,White,32.0,no,Male,c) Average,NC,former,no,,no,yes
+40-49,Black,27.0,yes,Female,d) Above average,NC,never,no,2-3,no,no
+40-49,White,24.0,yes,Male,d) Above average,MO,never,no,>3,no,no
+30-39,White,25.0,yes,Male,e) Well above average,CA,former,yes,>3,yes,yes
+40-49,Other,35.0,no,Male,d) Above average,CA,former,no,>3,no,no
+70-79,White,21.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+50-59,White,28.0,yes,Male,d) Above average,NY,former,no,>3,no,no
+30-39,White,22.0,yes,Female,d) Above average,MA,never,no,>3,yes,no
+40-49,White,22.0,yes,Female,d) Above average,CA,never,no,1,no,no
+50-59,White,31.0,no,Female,b) Below average,AZ,never,yes,2-3,no,no
+50-59,White,19.0,yes,Female,d) Above average,NC,never,no,2-3,no,no
+21-29,White,18.0,yes,Male,d) Above average,WA,never,no,>3,no,no
+70-79,White,26.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+40-49,White,29.0,yes,Female,b) Below average,CA,never,no,>3,no,no
+21-29,White,21.0,yes,Male,e) Well above average,NY,never,no,2-3,no,no
+18-20,White,24.0,yes,Male,e) Well above average,NC,never,no,2-3,no,no
+70-79,White,29.0,yes,Female,d) Above average,CA,former,no,2-3,no,no
+70-79,White,25.0,yes,Male,b) Below average,WA,never,no,2-3,no,no
+21-29,Asian,22.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+70-79,White,24.0,yes,Male,e) Well above average,CA,never,no,2-3,no,no
+30-39,White,50.0,no,Female,c) Average,MO,never,yes,1,no,yes
+30-39,Black,66.0,no,Female,b) Below average,NC,current,yes,>3,no,yes
+50-59,White,32.0,yes,Female,c) Average,MO,never,no,1,no,no
+60-69,White,26.0,no,Female,d) Above average,CA,never,no,2-3,no,no
+60-69,White,21.0,no,Female,c) Average,WA,former,no,1,no,no
+40-49,White,19.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+70-79,White,31.0,yes,Female,b) Below average,CA,former,no,1,no,yes
+40-49,White,64.0,no,Female,b) Below average,CA,never,no,>3,no,no
+40-49,White,31.0,yes,Male,c) Average,MA,never,no,2-3,no,no
+21-29,White,33.0,yes,Female,c) Average,CA,never,no,>3,no,no
+60-69,White,27.0,yes,Female,e) Well above average,NY,never,no,>3,no,no
+30-39,White,21.0,yes,Female,e) Well above average,CA,former,no,1,no,no
+40-49,White,30.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+40-49,White,23.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+70-79,White,24.0,yes,Female,d) Above average,FL,former,no,2-3,no,no
+50-59,White,39.0,yes,Female,c) Average,CA,never,no,>3,no,no
+60-69,White,27.0,yes,Female,d) Above average,CA,former,no,1,no,no
+50-59,White,18.0,no,Female,d) Above average,CA,never,no,>3,no,no
+40-49,White,18.0,yes,Female,e) Well above average,MA,never,no,>3,no,no
+70-79,White,21.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+21-29,White,29.0,yes,Female,c) Average,MA,never,no,2-3,no,no
+40-49,White,24.0,yes,Female,d) Above average,MA,never,no,2-3,no,no
+30-39,White,22.0,yes,Female,d) Above average,PA,never,no,1,no,yes
+50-59,White,25.0,yes,Male,c) Average,CA,never,no,>3,no,no
+50-59,White,25.0,yes,Female,c) Average,CA,never,no,2-3,no,no
+30-39,White,21.0,no,Male,d) Above average,PA,never,no,>3,no,no
+30-39,Asian,28.0,no,Male,c) Average,NC,former,no,2-3,no,no
+60-69,White,25.0,yes,Male,e) Well above average,CA,never,no,2-3,no,no
+60-69,White,29.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+70-79,White,28.0,yes,Male,e) Well above average,WA,never,no,2-3,no,no
+70-79,White,24.0,yes,Male,e) Well above average,CA,former,no,2-3,no,no
+30-39,White,26.0,no,Male,d) Above average,PA,former,no,2-3,no,no
+40-49,White,20.0,no,Female,d) Above average,CA,former,yes,1,no,no
+40-49,White,22.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+70-79,White,23.0,yes,Female,d) Above average,MA,never,no,2-3,no,no
+21-29,White,20.0,yes,Female,d) Above average,CA,former,no,2-3,yes,yes
+70-79,White,24.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+50-59,White,23.0,yes,Male,e) Well above average,CA,never,no,>3,no,no
+70-79,White,26.0,yes,Female,d) Above average,CA,never,no,1,no,no
+60-69,White,20.0,yes,Male,d) Above average,WA,never,no,2-3,no,no
+70-79,White,25.0,no,Female,d) Above average,CA,former,no,2-3,no,no
+50-59,White,20.0,yes,Female,e) Well above average,CA,former,no,1,no,no
+21-29,White,37.0,no,Female,a) Well below average,NC,current,yes,2-3,no,yes
+21-29,Other,21.0,no,Female,c) Average,CA,current,no,>3,no,no
+70-79,White,32.0,yes,Female,c) Average,CA,never,no,2-3,no,no
+21-29,White,22.0,yes,Female,e) Well above average,WA,former,no,>3,no,no
+60-69,White,18.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+50-59,NoAnswer,19.0,yes,Female,d) Above average,NY,never,yes,2-3,no,no
+50-59,White,23.0,yes,Female,e) Well above average,CA,former,no,>3,no,no
+60-69,White,27.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+60-69,White,29.0,yes,Male,c) Average,CA,never,no,2-3,no,yes
+30-39,White,21.0,no,Female,c) Average,AZ,current,no,2-3,no,no
+60-69,White,30.0,yes,Female,b) Below average,NC,current,no,>3,no,no
+80-older,White,10.0,yes,Female,e) Well above average,CA,former,no,1,no,no
+80-older,White,,yes,Female,d) Above average,CA,never,no,2-3,no,no
+80-older,White,24.0,yes,Male,c) Average,CA,never,no,1,no,no
+50-59,White,24.0,yes,Male,d) Above average,CA,former,no,1,no,no
+60-69,White,40.0,no,Female,c) Average,FL,former,no,2-3,no,no
+21-29,White,20.0,yes,Female,c) Average,AZ,former,no,2-3,no,no
+60-69,White,25.0,no,Female,b) Below average,NC,current,no,2-3,no,no
+40-49,Black,34.0,no,Female,c) Average,MA,never,yes,2-3,no,yes
+40-49,White,24.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+50-59,White,21.0,yes,Female,d) Above average,TX,never,no,2-3,no,no
+70-79,White,34.0,yes,Female,d) Above average,FL,former,no,2-3,no,no
+70-79,White,26.0,no,Male,c) Average,FL,former,no,1,no,no
+40-49,White,22.0,yes,Female,e) Well above average,CA,never,no,>3,no,no
+50-59,White,22.0,yes,Female,d) Above average,CA,never,no,1,no,no
+60-69,White,21.0,yes,Female,e) Well above average,CA,former,no,1,no,no
+30-39,White,33.0,yes,Female,d) Above average,NC,never,no,>3,no,no
+70-79,White,19.0,yes,Female,e) Well above average,CA,never,no,1,no,no
+21-29,White,24.0,no,Female,d) Above average,WA,ecig,yes,2-3,yes,yes
+60-69,White,18.0,yes,Female,d) Above average,CA,former,no,2-3,no,no
+21-29,White,33.0,yes,Female,c) Average,MO,former,no,>3,no,no
+30-39,White,24.0,no,Male,d) Above average,NC,never,no,>3,no,no
+60-69,White,32.0,yes,Male,b) Below average,CA,never,no,2-3,no,no
+40-49,White,22.0,yes,Male,e) Well above average,WA,never,no,2-3,no,no
+30-39,White,27.0,no,Female,c) Average,NC,former,no,>3,no,no
+50-59,Asian,20.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+40-49,White,27.0,yes,Male,d) Above average,NC,never,no,>3,no,no
+30-39,White,36.0,no,Female,c) Average,TX,current,no,2-3,no,no
+60-69,White,30.0,no,Male,c) Average,FL,never,no,2-3,no,no
+60-69,White,21.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+60-69,White,26.0,no,Female,e) Well above average,CA,former,no,2-3,no,no
+60-69,White,21.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+40-49,White,22.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+60-69,White,30.0,no,Female,b) Below average,WA,never,no,1,yes,yes
+50-59,White,25.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+50-59,White,24.0,yes,Male,d) Above average,CA,never,no,>3,no,no
+30-39,White,24.0,no,Male,e) Well above average,TX,never,no,1,no,no
+50-59,White,33.0,no,Male,c) Average,CA,never,no,>3,no,no
+30-39,White,22.0,yes,Female,e) Well above average,CA,never,yes,1,no,yes
+60-69,White,27.0,yes,Female,c) Average,WA,current,no,2-3,no,no
+70-79,White,21.0,yes,Female,d) Above average,CA,former,no,2-3,no,no
+70-79,White,21.0,yes,Female,d) Above average,FL,former,no,2-3,no,no
+60-69,White,27.0,yes,Male,e) Well above average,CA,former,no,2-3,no,no
+60-69,White,27.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+70-79,White,28.0,no,Male,d) Above average,CA,never,no,2-3,no,yes
+50-59,Asian,26.0,yes,Male,c) Average,CA,never,no,>3,no,no
+50-59,White,37.0,yes,Male,b) Below average,CA,former,no,>3,no,no
+60-69,Asian,28.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+60-69,White,27.0,yes,Male,c) Average,CA,never,no,2-3,no,no
+40-49,White,35.0,no,Male,c) Average,NC,never,no,>3,no,no
+70-79,White,24.0,yes,Female,e) Well above average,CA,former,no,>3,no,no
+40-49,White,19.0,yes,Female,d) Above average,NC,never,no,>3,no,no
+60-69,White,35.0,yes,Female,c) Average,CA,never,no,2-3,no,no
+40-49,White,22.0,yes,Male,e) Well above average,TX,never,no,>3,no,no
+40-49,Asian,23.0,no,Female,c) Average,CA,never,no,>3,no,no
+70-79,White,22.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+50-59,White,27.0,yes,Male,e) Well above average,CA,never,no,>3,no,no
+60-69,White,,yes,Female,d) Above average,CA,never,no,2-3,no,no
+50-59,White,24.0,yes,Female,e) Well above average,CA,never,no,1,no,no
+50-59,White,23.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+40-49,White,19.0,no,Female,d) Above average,MO,current,no,2-3,no,no
+70-79,White,,yes,Male,e) Well above average,CA,former,no,2-3,no,no
+30-39,Asian,22.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+40-49,White,27.0,yes,Male,b) Below average,FL,never,no,2-3,no,yes
+70-79,White,23.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+50-59,White,23.0,yes,Female,d) Above average,CA,former,no,2-3,no,no
+40-49,White,23.0,no,Female,b) Below average,PA,ecig,no,>3,no,no
+21-29,Black,31.0,no,Male,c) Average,PA,never,no,2-3,no,no
+60-69,White,19.0,yes,Female,d) Above average,CA,former,no,2-3,no,yes
+50-59,White,26.0,yes,Male,d) Above average,MA,former,no,>3,no,no
+21-29,Asian,22.0,yes,Female,d) Above average,NC,never,no,2-3,no,no
+40-49,White,26.0,yes,Female,c) Average,CA,never,no,>3,no,yes
+70-79,White,24.0,yes,Male,c) Average,WA,former,no,1,no,no
+50-59,Asian,25.0,yes,Male,d) Above average,CA,never,no,1,no,no
+40-49,White,28.0,no,Female,c) Average,NC,former,no,>3,no,no
+60-69,White,27.0,yes,Female,c) Average,CA,ecig,no,1,no,no
+70-79,White,19.0,yes,Female,b) Below average,CA,former,no,2-3,no,no
+50-59,White,25.0,yes,Male,d) Above average,PA,never,no,2-3,no,no
+60-69,White,20.0,yes,Female,e) Well above average,CA,former,no,2-3,no,no
+30-39,Other,27.0,yes,Female,d) Above average,MA,former,no,2-3,no,no
+30-39,White,30.0,yes,Female,d) Above average,MA,never,no,>3,no,no
+50-59,White,61.0,no,Female,b) Below average,TX,never,no,>3,no,no
+30-39,White,31.0,yes,Male,c) Average,TX,never,no,1,no,no
+50-59,White,32.0,yes,Male,c) Average,WA,never,yes,1,no,no
+21-29,Asian,19.0,yes,Other,d) Above average,MA,never,no,2-3,no,no
+60-69,White,27.0,yes,Male,d) Above average,FL,never,no,1,no,no
+21-29,White,24.0,yes,Female,c) Average,MA,former,no,1,no,no
+50-59,White,30.0,yes,Male,d) Above average,NC,never,no,>3,no,no
+50-59,White,17.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+60-69,White,22.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+60-69,Asian,22.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+30-39,White,32.0,yes,Male,c) Average,NC,never,no,>3,no,no
+30-39,White,28.0,no,Female,d) Above average,WA,never,no,2-3,no,no
+30-39,White,23.0,yes,Female,d) Above average,MA,never,no,2-3,no,no
+70-79,White,25.0,yes,Male,e) Well above average,CA,never,no,1,no,no
+60-69,White,20.0,yes,Male,c) Average,PA,never,no,2-3,no,no
+30-39,White,29.0,no,Female,c) Average,NC,never,no,>3,no,no
+50-59,White,26.0,yes,Male,d) Above average,CA,former,no,2-3,no,no
+50-59,White,33.0,yes,Female,e) Well above average,TX,never,no,2-3,no,no
+40-49,White,25.0,yes,Female,d) Above average,AZ,never,no,>3,no,no
+60-69,Other,27.0,yes,Male,c) Average,AZ,former,no,>3,no,no
+40-49,White,24.0,yes,Female,d) Above average,NC,former,no,>3,no,no
+30-39,White,24.0,no,Female,c) Average,MO,current,no,2-3,no,no
+30-39,White,26.0,no,Female,d) Above average,AZ,never,no,2-3,no,yes
+60-69,White,26.0,yes,Male,e) Well above average,NY,former,no,2-3,no,no
+60-69,White,39.0,yes,Female,c) Average,CA,never,no,2-3,no,no
+60-69,White,27.0,no,Female,c) Average,WA,never,no,2-3,no,no
+50-59,White,26.0,yes,Male,e) Well above average,PA,never,no,>3,no,no
+40-49,White,29.0,no,Male,b) Below average,AZ,current,yes,>3,no,no
+60-69,White,26.0,yes,Male,d) Above average,FL,current,no,2-3,no,no
+40-49,White,33.0,yes,Male,c) Average,CA,former,no,1,no,no
+30-39,White,22.0,no,Female,c) Average,FL,former,no,2-3,no,no
+40-49,White,25.0,yes,Male,c) Average,NY,never,no,2-3,no,no
+30-39,White,21.0,no,Female,c) Average,TX,current,no,>3,no,no
+60-69,White,37.0,yes,Female,c) Average,NY,former,no,1,no,no
+70-79,White,27.0,no,Male,d) Above average,CA,never,no,2-3,no,no
+50-59,White,25.0,no,Male,b) Below average,WA,never,yes,2-3,no,yes
+30-39,White,24.0,yes,Male,e) Well above average,FL,never,no,2-3,no,no
+60-69,White,25.0,yes,Male,e) Well above average,CA,never,no,2-3,no,no
+60-69,White,27.0,no,Female,c) Average,CA,never,yes,2-3,no,no
+60-69,White,24.0,yes,Female,e) Well above average,FL,never,no,1,no,no
+60-69,White,21.0,yes,Female,e) Well above average,AZ,never,no,1,no,no
+30-39,Other,23.0,no,Female,c) Average,NY,never,no,2-3,no,no
+60-69,White,34.0,no,Male,c) Average,TX,current,no,2-3,no,no
+21-29,White,29.0,yes,Female,c) Average,MA,never,no,>3,no,no
+70-79,White,29.0,yes,Female,d) Above average,WA,former,no,>3,no,no
+40-49,AmericanIndian,26.0,yes,Female,d) Above average,TX,current,yes,>3,no,no
+30-39,Other,23.0,no,Female,d) Above average,NY,never,no,>3,no,no
+30-39,Black,36.0,no,Male,c) Average,PA,former,yes,1,no,no
+70-79,White,29.0,no,Female,d) Above average,CA,never,no,2-3,no,no
+40-49,Asian,22.0,no,Female,b) Below average,CA,never,no,>3,no,no
+50-59,Other,26.0,no,Female,c) Average,CA,never,yes,>3,yes,yes
+60-69,White,36.0,no,Female,d) Above average,AZ,never,no,2-3,no,no
+70-79,White,28.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+30-39,White,24.0,no,Male,c) Average,PA,never,no,>3,no,no
+40-49,White,21.0,yes,Female,c) Average,WA,never,no,2-3,no,no
+40-49,White,34.0,yes,Female,c) Average,NY,never,yes,2-3,no,no
+30-39,White,19.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+30-39,White,38.0,no,Female,b) Below average,TX,former,no,>3,no,no
+40-49,White,47.0,no,Female,c) Average,CA,current,no,>3,no,no
+50-59,Other,39.0,no,Female,c) Average,MO,current,yes,2-3,no,no
+21-29,White,32.0,no,Male,b) Below average,TX,never,no,1,no,no
+50-59,White,29.0,no,Female,c) Average,TX,current,yes,2-3,no,yes
+30-39,White,21.0,no,Female,c) Average,TX,never,no,1,no,no
+30-39,White,38.0,no,Female,c) Average,TX,current,no,>3,no,no
+30-39,Other,33.0,no,Female,b) Below average,TX,never,no,1,no,no
+40-49,Black,28.0,no,Female,c) Average,TX,never,no,>3,no,no
+50-59,White,30.0,no,Female,d) Above average,TX,former,no,>3,no,no
+60-69,White,25.0,yes,Female,d) Above average,TX,former,no,2-3,no,no
+30-39,White,34.0,no,Female,c) Average,TX,never,no,>3,yes,no
+50-59,White,27.0,yes,Female,c) Average,WA,never,no,2-3,no,no
+80-older,White,26.0,yes,Male,d) Above average,AZ,former,no,2-3,no,no
+40-49,White,31.0,no,Male,c) Average,TX,never,no,>3,no,no
+50-59,White,28.0,no,Male,c) Average,CA,never,no,2-3,no,no
+60-69,White,29.0,no,Male,c) Average,TX,never,no,2-3,no,no
+50-59,Other,25.0,no,Male,d) Above average,CA,never,no,2-3,no,no
+21-29,Other,31.0,yes,Female,c) Average,TX,current,no,2-3,no,no
+30-39,White,23.0,no,Female,e) Well above average,TX,current,no,>3,no,no
+40-49,White,35.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+70-79,White,27.0,yes,Female,d) Above average,NC,former,no,2-3,no,no
+30-39,White,49.0,no,Female,b) Below average,TX,never,yes,>3,no,no
+21-29,White,23.0,yes,Male,d) Above average,NC,former,no,2-3,no,no
+30-39,White,22.0,yes,Male,d) Above average,NC,never,no,2-3,no,no
+40-49,White,22.0,yes,Female,c) Average,CA,never,no,2-3,no,no
+50-59,White,34.0,yes,Female,d) Above average,TX,ecig,no,>3,no,no
+40-49,White,29.0,yes,Male,e) Well above average,CA,never,yes,>3,no,no
+40-49,White,27.0,no,Male,d) Above average,CA,never,no,>3,no,no
+50-59,White,31.0,yes,Female,c) Average,TX,never,no,1,no,no
+40-49,Asian,28.0,no,Female,c) Average,CA,former,no,2-3,no,no
+40-49,White,30.0,yes,Female,e) Well above average,CA,never,no,>3,no,no
+60-69,Asian,21.0,yes,Female,c) Average,CA,former,no,1,no,no
+30-39,Other,24.0,yes,Female,c) Average,CA,never,no,>3,no,no
+40-49,White,24.0,no,Female,c) Average,TX,current,yes,2-3,no,no
+40-49,White,30.0,no,Female,d) Above average,CA,never,no,>3,no,no
+30-39,Asian,19.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+60-69,White,18.0,no,Female,c) Average,NC,current,no,2-3,no,no
+70-79,White,19.0,yes,Female,d) Above average,CA,former,no,,no,no
+40-49,Asian,25.0,yes,Male,e) Well above average,CA,former,no,1,no,no
+50-59,White,42.0,yes,Female,c) Average,CA,never,no,2-3,no,no
+50-59,White,27.0,yes,Male,d) Above average,CA,former,no,1,no,no
+40-49,White,30.0,no,Female,c) Average,CA,never,no,2-3,no,no
+60-69,White,29.0,no,Female,c) Average,CA,never,no,2-3,no,no
+30-39,White,23.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+60-69,White,21.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+40-49,White,23.0,yes,Female,d) Above average,CA,never,no,>3,no,yes
+60-69,White,29.0,yes,Female,d) Above average,CA,former,no,2-3,no,no
+40-49,White,22.0,no,Female,c) Average,CA,never,no,>3,no,no
+40-49,White,20.0,yes,Female,b) Below average,CA,never,no,2-3,no,no
+70-79,White,36.0,no,Male,c) Average,CA,former,no,2-3,no,no
+40-49,White,34.0,yes,Female,d) Above average,CA,former,no,1,no,no
+40-49,Black,37.0,yes,Male,e) Well above average,CA,never,no,>3,no,no
+21-29,White,24.0,yes,Female,c) Average,PA,never,no,2-3,no,no
+50-59,Black,23.0,no,Male,c) Average,MA,current,no,2-3,no,no
+40-49,White,25.0,yes,Male,d) Above average,NC,never,yes,>3,no,yes
+40-49,White,32.0,yes,Male,c) Average,WA,never,no,2-3,no,no
+40-49,White,35.0,no,Female,b) Below average,PA,never,yes,1,no,no
+50-59,White,43.0,no,Female,b) Below average,CA,never,no,2-3,no,no
+40-49,White,39.0,yes,Male,b) Below average,CA,never,no,2-3,no,no
+70-79,White,27.0,yes,Male,d) Above average,CA,former,no,2-3,no,no
+70-79,White,21.0,yes,Female,d) Above average,CA,never,no,1,no,no
+60-69,White,24.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+30-39,White,31.0,no,Male,c) Average,PA,ecig,no,>3,no,no
+40-49,White,23.0,yes,Female,c) Average,CA,former,no,>3,no,yes
+21-29,White,22.0,yes,Female,d) Above average,NY,former,no,>3,yes,no
+70-79,White,23.0,no,Female,b) Below average,NY,former,no,2-3,no,no
+60-69,White,23.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+60-69,White,36.0,no,Female,b) Below average,NC,ecig,no,2-3,no,no
+40-49,White,25.0,yes,Female,c) Average,FL,former,no,1,no,no
+60-69,White,23.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+30-39,White,20.0,no,Female,c) Average,CA,current,no,>3,no,no
+30-39,White,48.0,no,Female,c) Average,CA,never,no,2-3,no,no
+30-39,White,26.0,yes,Female,d) Above average,WA,former,no,2-3,no,yes
+40-49,White,25.0,yes,Female,d) Above average,WA,never,no,2-3,no,no
+40-49,White,22.0,yes,Female,c) Average,CA,never,no,2-3,no,no
+50-59,White,32.0,yes,Female,c) Average,NC,former,yes,2-3,no,yes
+40-49,White,26.0,yes,Female,c) Average,CA,former,no,>3,no,no
+30-39,White,22.0,no,Male,d) Above average,CA,never,no,>3,no,no
+40-49,White,24.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+40-49,White,34.0,yes,Female,d) Above average,NY,never,yes,>3,no,no
+40-49,White,26.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+30-39,Other,29.0,yes,Female,d) Above average,NY,never,no,2-3,no,no
+70-79,White,21.0,yes,Male,c) Average,CA,former,no,2-3,no,no
+30-39,White,25.0,yes,Male,e) Well above average,FL,never,yes,>3,no,yes
+60-69,White,28.0,yes,Female,d) Above average,NY,never,no,2-3,no,no
+21-29,Other,38.0,no,Male,c) Average,FL,never,no,1,no,no
+60-69,White,,yes,Female,e) Well above average,CA,former,no,2-3,no,no
+50-59,White,23.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+40-49,White,29.0,yes,Female,d) Above average,WA,never,no,2-3,no,no
+60-69,White,20.0,yes,Female,d) Above average,CA,former,no,2-3,no,no
+70-79,White,27.0,yes,Female,d) Above average,CA,former,no,2-3,no,no
+60-69,White,32.0,yes,Male,d) Above average,WA,never,no,2-3,no,no
+50-59,White,32.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+60-69,Other,,no,Female,c) Average,TX,former,no,2-3,no,no
+60-69,White,25.0,yes,Female,c) Average,NY,former,no,2-3,no,no
+60-69,White,29.0,yes,Female,d) Above average,WA,former,no,2-3,no,no
+21-29,Black,31.0,no,Female,c) Average,MO,current,no,>3,no,no
+70-79,White,30.0,yes,Male,e) Well above average,CA,never,no,1,no,no
+30-39,Black,22.0,no,Female,c) Average,CA,ecig,no,>3,yes,no
+50-59,White,23.0,no,Male,b) Below average,MA,current,no,>3,no,no
+40-49,Other,35.0,no,Female,c) Average,CA,never,no,>3,no,yes
+40-49,White,25.0,yes,Female,e) Well above average,CA,current,no,>3,yes,no
+60-69,White,25.0,no,Female,d) Above average,PA,never,no,2-3,no,no
+60-69,Other,30.0,no,Female,c) Average,CA,former,no,2-3,yes,yes
+50-59,White,27.0,yes,Female,c) Average,MA,never,no,2-3,no,yes
+50-59,White,38.0,yes,Female,d) Above average,PA,current,no,2-3,no,no
+40-49,AmericanIndian,36.0,yes,Female,c) Average,AZ,never,no,2-3,no,no
+40-49,White,21.0,no,Male,c) Average,CA,former,yes,2-3,no,no
+50-59,White,20.0,yes,Female,c) Average,FL,ecig,no,2-3,no,no
+30-39,White,37.0,yes,Female,c) Average,FL,former,yes,>3,no,no
+70-79,White,22.0,yes,Female,d) Above average,CA,former,no,2-3,no,no
+40-49,Black,29.0,no,Female,c) Average,TX,never,no,2-3,no,no
+80-older,White,27.0,yes,Female,e) Well above average,NY,never,no,,no,no
+40-49,Black,46.0,no,Female,b) Below average,AZ,current,no,>3,yes,yes
+40-49,White,34.0,yes,Female,d) Above average,WA,never,no,>3,no,no
+30-39,White,29.0,no,Male,b) Below average,AZ,former,yes,2-3,no,no
+30-39,White,29.0,yes,Female,c) Average,AZ,never,yes,2-3,yes,no
+50-59,White,29.0,yes,Male,d) Above average,AZ,former,no,2-3,no,no
+50-59,Other,25.0,yes,Female,e) Well above average,AZ,never,no,1,no,no
+60-69,White,24.0,yes,Female,c) Average,AZ,never,yes,1,no,no
+30-39,White,27.0,no,Female,c) Average,FL,current,no,2-3,no,no
+30-39,White,23.0,no,Female,c) Average,AZ,former,no,>3,no,no
+50-59,White,32.0,yes,Male,c) Average,AZ,former,no,>3,no,no
+50-59,PacificIslander,19.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+50-59,White,25.0,no,Female,d) Above average,AZ,never,no,2-3,no,no
+50-59,White,25.0,yes,Female,d) Above average,AZ,never,no,1,no,no
+21-29,Black,27.0,yes,Female,c) Average,AZ,former,yes,>3,no,no
+30-39,Black,25.0,yes,Female,c) Average,AZ,former,no,2-3,no,no
+50-59,White,24.0,yes,Male,e) Well above average,NY,former,no,>3,yes,no
+60-69,White,33.0,no,Female,b) Below average,AZ,never,yes,>3,no,yes
+21-29,White,24.0,no,Female,d) Above average,AZ,never,no,1,no,no
+21-29,White,27.0,no,Female,c) Average,MA,former,yes,>3,no,yes
+30-39,White,19.0,no,Male,b) Below average,AZ,ecig,no,1,no,no
+60-69,White,43.0,yes,Female,b) Below average,WA,never,no,2-3,no,yes
+40-49,White,28.0,yes,Male,e) Well above average,TX,never,no,1,no,no
+40-49,White,22.0,no,Male,b) Below average,CA,current,no,2-3,no,no
+21-29,White,34.0,no,Female,c) Average,NC,never,no,1,no,yes
+60-69,White,32.0,yes,Female,b) Below average,PA,ecig,no,2-3,no,no
+21-29,White,20.0,yes,Female,d) Above average,FL,never,no,>3,no,no
+50-59,White,33.0,yes,Female,e) Well above average,MO,never,no,1,no,no
+30-39,White,20.0,no,Female,c) Average,NC,current,no,>3,no,no
+30-39,White,36.0,yes,Male,d) Above average,CA,former,no,2-3,no,no
+50-59,White,26.0,yes,Male,d) Above average,CA,former,no,2-3,no,no
+21-29,White,23.0,yes,Male,e) Well above average,CA,never,no,2-3,no,no
+50-59,White,20.0,yes,Male,d) Above average,MO,former,no,2-3,no,no
+30-39,White,20.0,yes,Female,d) Above average,CA,former,no,1,no,no
+50-59,White,27.0,yes,Female,c) Average,CA,former,no,2-3,no,no
+40-49,White,32.0,no,Female,c) Average,FL,ecig,yes,2-3,no,yes
+40-49,White,26.0,no,Female,c) Average,AZ,former,no,>3,no,no
+50-59,White,22.0,yes,Female,e) Well above average,CA,former,no,>3,no,no
+50-59,White,19.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+60-69,White,24.0,yes,Female,d) Above average,CA,never,no,1,no,no
+30-39,White,44.0,yes,Male,b) Below average,AZ,never,no,>3,no,yes
+40-49,White,21.0,yes,Male,d) Above average,CA,never,no,1,no,no
+40-49,Black,25.0,yes,Female,d) Above average,AZ,never,no,>3,no,no
+50-59,White,21.0,yes,Female,d) Above average,CA,former,no,>3,no,no
+30-39,White,26.0,yes,Female,c) Average,CA,never,no,>3,no,no
+40-49,White,25.0,yes,Male,d) Above average,CA,never,no,>3,no,yes
+40-49,White,23.0,yes,Female,c) Average,CA,never,no,>3,no,no
+40-49,White,23.0,yes,Female,d) Above average,PA,never,no,>3,no,no
+70-79,White,23.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+60-69,White,23.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+60-69,White,25.0,yes,Male,e) Well above average,FL,never,no,2-3,no,no
+60-69,White,20.0,yes,Male,c) Average,CA,never,no,2-3,no,no
+40-49,White,27.0,no,Male,e) Well above average,NC,former,no,1,no,no
+70-79,White,20.0,yes,Female,b) Below average,CA,never,yes,2-3,yes,yes
+70-79,White,24.0,yes,Female,e) Well above average,CA,former,no,2-3,no,no
+40-49,White,24.0,no,Male,d) Above average,NY,never,no,>3,no,no
+30-39,White,19.0,no,Female,a) Well below average,PA,never,no,2-3,no,no
+70-79,White,26.0,yes,Male,d) Above average,CA,former,no,2-3,no,no
+50-59,White,25.0,yes,Male,e) Well above average,PA,never,no,2-3,no,no
+70-79,White,24.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+21-29,White,23.0,yes,Female,e) Well above average,TX,never,no,>3,no,no
+40-49,White,23.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+40-49,Asian,20.0,yes,Female,d) Above average,CA,never,no,1,no,no
+30-39,White,30.0,yes,Female,e) Well above average,AZ,never,no,2-3,no,no
+50-59,White,25.0,yes,Female,d) Above average,CA,never,no,1,no,no
+60-69,White,24.0,yes,Female,d) Above average,FL,never,no,2-3,no,no
+50-59,White,22.0,yes,Female,d) Above average,CA,never,yes,2-3,no,yes
+21-29,White,24.0,yes,Male,e) Well above average,MA,never,no,>3,no,no
+50-59,White,24.0,yes,Female,d) Above average,WA,former,no,>3,no,no
+40-49,White,32.0,no,Female,c) Average,MO,never,no,>3,no,no
+60-69,White,29.0,yes,Female,d) Above average,NY,never,no,1,no,no
+50-59,White,24.0,yes,Female,b) Below average,WA,former,no,2-3,no,no
+70-79,White,21.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+21-29,White,23.0,yes,Female,c) Average,CA,never,no,1,no,no
+60-69,White,30.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+40-49,AmericanIndian,25.0,yes,Female,c) Average,MA,current,no,>3,no,no
+60-69,White,24.0,no,Female,c) Average,CA,never,no,2-3,no,no
+40-49,White,37.0,no,Female,c) Average,MA,former,no,>3,no,no
+21-29,White,21.0,yes,Female,c) Average,MA,never,no,1,no,no
+30-39,White,33.0,no,Male,c) Average,NY,never,no,2-3,no,no
+40-49,White,28.0,no,Female,c) Average,TX,current,yes,2-3,no,no
+60-69,White,21.0,yes,Male,e) Well above average,CA,never,no,2-3,no,no
+50-59,White,31.0,no,Female,b) Below average,CA,never,no,2-3,no,no
+30-39,White,23.0,no,Female,d) Above average,CA,ecig,no,1,no,no
+30-39,White,27.0,no,Female,d) Above average,MA,never,no,>3,no,no
+60-69,White,31.0,no,Female,c) Average,WA,ecig,no,2-3,no,no
+21-29,White,21.0,yes,Female,c) Average,MO,never,yes,2-3,no,no
+50-59,White,53.0,no,Female,b) Below average,AZ,never,yes,1,no,yes
+60-69,White,24.0,no,Female,d) Above average,CA,never,no,>3,no,no
+60-69,White,17.0,yes,Male,d) Above average,FL,never,no,2-3,no,no
+60-69,White,20.0,no,Female,c) Average,NY,former,no,>3,no,no
+30-39,White,23.0,yes,Male,d) Above average,NC,never,no,2-3,no,no
+60-69,Black,29.0,yes,Male,d) Above average,TX,never,no,1,no,no
+50-59,White,23.0,no,Female,d) Above average,AZ,never,no,1,no,no
+21-29,White,20.0,no,Female,e) Well above average,CA,ecig,no,2-3,no,no
+70-79,White,20.0,yes,Female,e) Well above average,CA,former,no,2-3,no,no
+40-49,White,27.0,yes,Female,c) Average,TX,never,no,2-3,no,no
+70-79,NoAnswer,27.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+60-69,White,47.0,no,Female,b) Below average,MA,never,no,2-3,no,no
+50-59,White,25.0,yes,Female,c) Average,CA,former,no,2-3,no,yes
+70-79,Other,25.0,yes,Male,e) Well above average,PA,former,no,1,no,no
+30-39,NoAnswer,30.0,no,Female,c) Average,CA,never,yes,>3,no,no
+50-59,Asian,27.0,yes,Female,c) Average,CA,former,yes,>3,yes,yes
+50-59,White,29.0,no,Female,b) Below average,AZ,never,no,2-3,no,no
+50-59,White,28.0,yes,Female,c) Average,NY,former,no,2-3,no,no
+60-69,White,3.0,yes,Female,c) Average,CA,never,yes,1,yes,yes
+60-69,White,27.0,no,Female,d) Above average,NC,never,no,2-3,no,no
+40-49,Other,23.0,yes,Female,d) Above average,CA,never,no,>3,yes,no
+50-59,White,22.0,yes,Female,e) Well above average,CA,never,no,>3,no,no
+50-59,White,70.0,yes,Male,e) Well above average,WA,ecig,no,1,no,no
+70-79,White,30.0,no,Female,d) Above average,CA,former,no,1,no,no
+40-49,White,34.0,no,Female,c) Average,FL,never,no,2-3,no,no
+30-39,White,17.0,no,Female,b) Below average,CA,former,no,2-3,no,no
+40-49,White,20.0,yes,Female,d) Above average,NY,never,yes,>3,yes,no
+50-59,White,21.0,yes,Female,d) Above average,WA,never,no,2-3,no,no
+21-29,Asian,19.0,yes,Female,c) Average,CA,never,no,1,no,no
+40-49,Asian,29.0,yes,Other,c) Average,CA,never,no,>3,no,no
+40-49,White,31.0,yes,Female,c) Average,MA,never,no,>3,no,no
+40-49,White,27.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+60-69,White,24.0,yes,Male,b) Below average,WA,former,yes,1,no,no
+50-59,White,19.0,yes,Female,a) Well below average,CA,never,yes,2-3,yes,no
+50-59,White,31.0,yes,Male,c) Average,TX,never,no,2-3,no,no
+50-59,PacificIslander,21.0,yes,Female,e) Well above average,CA,former,no,>3,no,no
+21-29,White,21.0,yes,Female,d) Above average,NC,never,no,2-3,no,no
+30-39,White,42.0,no,Female,b) Below average,CA,former,yes,2-3,no,no
+40-49,White,26.0,no,Female,c) Average,TX,never,yes,1,no,no
+21-29,White,32.0,yes,Other,c) Average,NC,never,yes,2-3,no,no
+40-49,White,28.0,no,Female,c) Average,CA,current,no,2-3,no,no
+50-59,Asian,21.0,yes,Female,c) Average,CA,never,no,2-3,no,no
+21-29,White,26.0,yes,Female,c) Average,MO,current,yes,>3,no,yes
+40-49,White,21.0,yes,Female,d) Above average,WA,former,no,2-3,no,no
+50-59,White,23.0,no,Female,d) Above average,PA,never,no,2-3,no,no
+18-20,White,22.0,yes,Male,d) Above average,CA,never,no,>3,no,no
+30-39,White,29.0,yes,Female,c) Average,TX,never,no,2-3,no,no
+40-49,White,30.0,no,Female,b) Below average,FL,former,no,2-3,no,no
+40-49,White,30.0,no,Female,c) Average,MA,never,no,>3,no,no
+30-39,White,20.0,yes,Female,c) Average,MO,current,no,2-3,no,no
+40-49,White,23.0,yes,Female,d) Above average,NC,never,no,2-3,no,no
+40-49,White,35.0,yes,Male,d) Above average,CA,former,no,2-3,no,no
+70-79,AmericanIndian,27.0,no,Male,d) Above average,TX,former,no,1,no,no
+60-69,Black,39.0,no,Female,e) Well above average,TX,never,no,2-3,no,no
+50-59,White,28.0,no,Male,d) Above average,NY,never,no,1,no,no
+30-39,White,29.0,yes,Female,c) Average,CA,never,no,>3,no,no
+30-39,White,32.0,yes,Female,c) Average,CA,current,no,>3,no,no
+30-39,White,25.0,yes,Female,d) Above average,NC,former,no,2-3,no,no
+50-59,White,40.0,no,Female,c) Average,NY,former,no,2-3,no,no
+50-59,White,22.0,yes,Female,d) Above average,CA,former,no,2-3,no,no
+60-69,White,20.0,yes,Female,a) Well below average,TX,ecig,no,2-3,no,no
+60-69,White,21.0,yes,Female,c) Average,FL,former,no,2-3,no,no
+50-59,White,31.0,no,Male,b) Below average,NY,former,no,2-3,no,no
+40-49,White,22.0,no,Male,d) Above average,NC,former,no,2-3,no,no
+70-79,White,,no,Male,c) Average,PA,never,no,1,no,yes
+50-59,Black,40.0,no,Female,c) Average,PA,former,no,2-3,no,no
+40-49,White,20.0,yes,Female,d) Above average,PA,former,no,>3,no,no
+40-49,White,32.0,no,Female,c) Average,PA,never,no,2-3,no,no
+50-59,White,37.0,no,Female,b) Below average,PA,never,no,>3,no,no
+50-59,White,23.0,yes,Female,e) Well above average,PA,never,no,>3,no,no
+50-59,Black,28.0,yes,Male,d) Above average,FL,current,no,>3,no,no
+40-49,Black,24.0,yes,Male,e) Well above average,PA,never,no,>3,no,no
+40-49,White,29.0,yes,Female,d) Above average,TX,former,no,>3,no,no
+40-49,Black,29.0,yes,Female,d) Above average,PA,current,no,1,no,no
+60-69,White,25.0,no,Male,c) Average,TX,never,no,2-3,no,no
+50-59,Black,40.0,no,Female,e) Well above average,NY,former,no,2-3,no,no
+50-59,NoAnswer,25.0,yes,Female,c) Average,NY,former,no,2-3,no,no
+60-69,White,32.0,yes,Female,c) Average,TX,never,no,2-3,no,no
+21-29,White,22.0,yes,Female,c) Average,TX,former,yes,2-3,no,yes
+50-59,White,22.0,yes,Female,e) Well above average,CA,never,no,>3,no,no
+30-39,White,24.0,no,Female,b) Below average,TX,ecig,no,2-3,no,no
+40-49,NoAnswer,25.0,yes,Female,d) Above average,TX,never,no,2-3,no,no
+60-69,White,29.0,yes,Female,c) Average,MO,never,no,2-3,no,no
+60-69,White,22.0,yes,Female,c) Average,WA,never,yes,2-3,no,no
+30-39,White,20.0,yes,Male,e) Well above average,CA,former,no,2-3,no,no
+40-49,White,37.0,no,Female,c) Average,MO,former,no,2-3,no,no
+70-79,White,32.0,yes,Male,c) Average,AZ,former,no,2-3,no,no
+30-39,White,21.0,yes,Female,d) Above average,CA,never,no,2-3,yes,no
+70-79,White,27.0,yes,Female,c) Average,PA,former,no,2-3,no,no
+50-59,White,22.0,yes,Female,d) Above average,CA,former,no,2-3,no,no
+50-59,White,27.0,yes,Female,c) Average,AZ,never,no,2-3,no,no
+30-39,White,20.0,yes,Female,b) Below average,CA,former,no,2-3,no,no
+21-29,Other,24.0,no,Male,c) Average,MA,current,no,>3,no,no
+80-older,White,22.0,yes,Female,e) Well above average,TX,never,no,1,no,no
+60-69,White,17.0,yes,Female,c) Average,PA,current,no,2-3,no,no
+60-69,Black,30.0,no,Male,d) Above average,TX,former,no,2-3,no,no
+50-59,White,27.0,yes,Female,c) Average,TX,current,no,2-3,no,yes
+70-79,White,28.0,yes,Female,c) Average,MO,never,no,2-3,no,no
+30-39,AmericanIndian,23.0,yes,Female,c) Average,CA,current,no,2-3,no,no
+50-59,White,27.0,yes,Female,c) Average,TX,current,no,2-3,no,no
+60-69,White,19.0,yes,Female,d) Above average,PA,never,no,2-3,no,no
+60-69,Black,39.0,no,Female,e) Well above average,TX,never,no,2-3,no,no
+50-59,White,32.0,no,Female,d) Above average,WA,ecig,no,2-3,no,no
+60-69,White,26.0,no,Female,b) Below average,TX,never,no,>3,no,no
+40-49,White,22.0,no,Female,c) Average,AZ,former,no,2-3,no,no
+50-59,White,21.0,no,Female,d) Above average,TX,never,no,>3,no,no
+70-79,White,24.0,yes,Female,e) Well above average,PA,former,no,2-3,no,no
+50-59,White,32.0,no,Female,c) Average,PA,never,no,>3,no,no
+30-39,NoAnswer,27.0,yes,Female,b) Below average,WA,never,no,2-3,no,no
+70-79,White,27.0,yes,Female,c) Average,PA,never,yes,1,no,yes
+21-29,White,24.0,yes,Female,d) Above average,NC,former,no,2-3,no,no
+50-59,White,27.0,no,Female,c) Average,CA,current,no,1,no,no
+70-79,White,27.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+60-69,White,31.0,no,Female,d) Above average,PA,current,no,2-3,no,no
+60-69,White,44.0,no,Male,c) Average,PA,current,no,1,no,no
+40-49,White,25.0,no,Male,a) Well below average,WA,former,yes,2-3,no,yes
+50-59,Black,25.0,yes,Female,d) Above average,CA,former,no,2-3,no,no
+30-39,White,27.0,yes,Female,d) Above average,AZ,never,no,2-3,no,no
+40-49,Black,26.0,no,Male,c) Average,CA,former,no,2-3,no,no
+50-59,Black,37.0,yes,Female,c) Average,CA,former,no,2-3,no,no
+21-29,White,21.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+40-49,Other,27.0,no,Male,c) Average,CA,never,no,>3,no,no
+70-79,White,29.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+60-69,White,20.0,no,Female,d) Above average,CA,current,no,2-3,no,no
+50-59,White,22.0,no,Male,b) Below average,CA,current,no,1,no,no
+30-39,Other,21.0,yes,Male,d) Above average,CA,never,yes,2-3,no,no
+50-59,White,20.0,yes,Female,d) Above average,CA,current,no,2-3,no,no
+70-79,Black,24.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+18-20,Black,22.0,yes,Male,e) Well above average,CA,never,no,2-3,no,no
+60-69,Other,24.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+60-69,White,30.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+50-59,White,23.0,yes,Male,e) Well above average,CA,never,no,2-3,no,no
+70-79,White,32.0,yes,Female,d) Above average,CA,former,no,2-3,no,no
+50-59,White,21.0,yes,Female,d) Above average,CA,current,no,2-3,no,no
+70-79,White,30.0,no,Male,c) Average,CA,former,no,2-3,no,no
+21-29,Black,34.0,no,Female,d) Above average,PA,never,no,2-3,no,no
+50-59,Other,31.0,no,Female,c) Average,CA,never,no,1,no,no
+40-49,White,31.0,yes,Male,d) Above average,CA,never,no,>3,no,no
+60-69,White,34.0,yes,Female,c) Average,FL,never,yes,2-3,no,no
+40-49,Black,29.0,no,Female,c) Average,TX,never,no,2-3,no,no
+60-69,White,30.0,yes,Male,c) Average,CA,never,no,>3,no,no
+60-69,AmericanIndian,47.0,no,Female,b) Below average,WA,never,no,2-3,no,no
+70-79,White,24.0,yes,Male,e) Well above average,CA,former,no,2-3,no,no
+70-79,White,25.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+50-59,White,20.0,yes,Female,c) Average,CA,never,no,>3,no,no
+50-59,White,29.0,no,Female,c) Average,TX,former,yes,>3,yes,yes
+50-59,White,23.0,yes,Female,c) Average,AZ,current,no,2-3,no,yes
+70-79,Black,32.0,yes,Female,c) Average,TX,never,no,>3,no,no
+70-79,Black,32.0,yes,Female,c) Average,TX,never,no,2-3,no,no
+30-39,White,22.0,yes,Female,d) Above average,NC,current,no,>3,no,no
+30-39,White,22.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+50-59,White,20.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+60-69,White,33.0,yes,Female,c) Average,FL,never,no,,no,no
+40-49,White,24.0,yes,Male,d) Above average,WA,former,no,1,no,yes
+50-59,White,20.0,yes,Female,e) Well above average,TX,never,no,>3,no,no
+50-59,White,42.0,yes,Female,b) Below average,WA,never,yes,>3,yes,yes
+50-59,White,23.0,no,Female,a) Well below average,AZ,former,no,>3,no,no
+70-79,White,22.0,yes,Female,e) Well above average,CA,never,no,,no,no
+50-59,White,26.0,yes,Female,b) Below average,NY,current,no,,no,no
+50-59,White,27.0,yes,Male,c) Average,CA,never,no,2-3,no,no
+30-39,White,24.0,yes,Male,e) Well above average,FL,former,no,2-3,no,no
+30-39,Other,24.0,no,Male,d) Above average,CA,never,no,>3,no,no
+30-39,White,26.0,no,Male,c) Average,MO,former,no,2-3,no,no
+40-49,AmericanIndian,36.0,no,Female,c) Average,FL,never,no,>3,no,no
+40-49,NoAnswer,,yes,Male,,CA,former,no,,no,no
+30-39,White,26.0,yes,Female,d) Above average,NC,former,no,2-3,no,no
+50-59,White,22.0,yes,Male,e) Well above average,NC,never,no,>3,no,no
+40-49,White,20.0,yes,Female,d) Above average,CA,never,no,>3,no,no
+50-59,White,21.0,yes,Male,d) Above average,NY,former,no,2-3,no,no
+60-69,White,45.0,no,Female,c) Average,FL,never,no,1,no,no
+50-59,White,35.0,yes,Female,c) Average,NC,never,no,>3,no,no
+50-59,White,28.0,yes,Female,c) Average,CA,former,no,2-3,no,no
+40-49,White,30.0,no,Female,c) Average,AZ,never,yes,>3,no,yes
+50-59,White,25.0,no,Male,c) Average,NC,never,no,>3,no,no
+21-29,White,19.0,no,Female,b) Below average,NC,never,yes,>3,no,no
+30-39,White,36.0,no,Female,c) Average,TX,never,no,2-3,no,no
+40-49,Black,38.0,no,Female,d) Above average,TX,never,no,>3,no,no
+50-59,White,20.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+70-79,Black,35.0,no,Female,b) Below average,CA,never,no,2-3,no,no
+40-49,Asian,22.0,yes,Female,d) Above average,CA,former,no,>3,no,no
+60-69,Black,27.0,yes,Female,d) Above average,NC,former,no,2-3,no,no
+40-49,White,35.0,yes,Female,d) Above average,AZ,ecig,no,2-3,no,no
+40-49,White,45.0,yes,Female,b) Below average,FL,never,yes,2-3,no,yes
+50-59,White,29.0,yes,Female,c) Average,WA,former,no,2-3,no,no
+40-49,Black,20.0,no,Female,e) Well above average,PA,never,no,>3,no,no
+30-39,White,25.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+50-59,White,38.0,no,Female,c) Average,AZ,former,yes,2-3,no,no
+40-49,White,23.0,yes,Male,d) Above average,NC,never,no,>3,no,no
+50-59,White,32.0,no,Female,c) Average,TX,never,no,>3,no,no
+50-59,White,22.0,yes,Female,e) Well above average,FL,former,no,1,no,no
+60-69,White,25.0,no,Female,b) Below average,MO,never,no,2-3,no,no
+30-39,White,19.0,yes,Female,d) Above average,NY,never,no,2-3,no,no
+50-59,White,24.0,yes,Female,d) Above average,FL,former,no,>3,no,no
+50-59,White,21.0,yes,Female,a) Well below average,NY,former,yes,>3,no,yes
+40-49,White,34.0,yes,Female,c) Average,CA,current,no,2-3,no,no
+70-79,White,26.0,no,Female,d) Above average,FL,never,no,2-3,no,no
+60-69,White,32.0,yes,Female,c) Average,WA,former,no,2-3,no,no
+40-49,White,25.0,yes,Female,d) Above average,NC,never,no,>3,no,no
+60-69,White,26.0,yes,Female,e) Well above average,PA,former,no,2-3,no,no
+30-39,White,29.0,no,Female,c) Average,CA,former,yes,>3,no,no
+60-69,White,29.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+80-older,White,23.0,no,Female,d) Above average,CA,former,no,1,no,no
+50-59,White,20.0,yes,Female,c) Average,CA,never,no,2-3,no,no
+60-69,White,24.0,yes,Male,e) Well above average,CA,never,no,1,no,no
+30-39,White,33.0,no,Female,d) Above average,MO,current,no,>3,no,no
+60-69,White,22.0,yes,Female,e) Well above average,CA,never,no,>3,no,no
+30-39,NoAnswer,30.0,yes,Male,c) Average,TX,never,no,>3,no,no
+80-older,White,26.0,yes,Female,d) Above average,CA,former,no,1,no,no
+40-49,White,19.0,yes,Female,b) Below average,CA,current,no,2-3,no,no
+70-79,White,19.0,no,Female,d) Above average,FL,current,yes,1,no,yes
+40-49,White,24.0,no,Female,d) Above average,CA,former,no,>3,no,no
+60-69,White,35.0,no,Male,d) Above average,MO,never,no,2-3,no,no
+50-59,White,23.0,yes,Female,d) Above average,CA,never,no,2-3,no,no
+40-49,White,28.0,no,Female,d) Above average,CA,ecig,no,>3,no,no
+21-29,AmericanIndian,25.0,yes,Female,b) Below average,TX,never,no,>3,no,no
+70-79,White,22.0,yes,Female,e) Well above average,CA,never,no,2-3,no,no
+50-59,White,25.0,yes,Female,c) Average,FL,never,no,2-3,no,no
+40-49,White,27.0,yes,Female,b) Below average,AZ,never,no,2-3,no,no
+30-39,Other,29.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+30-39,White,24.0,no,Male,c) Average,PA,former,no,>3,no,no
+50-59,White,22.0,yes,Female,e) Well above average,WA,never,no,2-3,no,no
+70-79,White,23.0,no,Male,b) Below average,FL,never,no,>3,no,no
+40-49,White,23.0,yes,Female,e) Well above average,AZ,never,no,>3,no,no
+50-59,White,30.0,no,Male,d) Above average,NY,ecig,no,2-3,no,no
+40-49,Black,33.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+30-39,White,21.0,yes,Female,d) Above average,NC,never,no,1,no,no
+40-49,White,50.0,no,Female,b) Below average,PA,former,no,2-3,no,no
+70-79,White,33.0,no,Male,b) Below average,AZ,never,no,>3,no,no
+60-69,White,15.0,no,Male,a) Well below average,AZ,former,no,1,no,no
+60-69,White,21.0,yes,Female,d) Above average,FL,former,no,2-3,no,no
+60-69,White,38.0,yes,Female,b) Below average,FL,former,no,1,no,no
+60-69,White,34.0,yes,Male,c) Average,MA,current,no,2-3,no,no
+60-69,White,21.0,no,Male,e) Well above average,MA,never,no,2-3,no,no
+50-59,White,22.0,yes,Female,c) Average,MO,never,no,2-3,no,no
+60-69,White,22.0,yes,Female,c) Average,FL,current,no,1,no,no
+60-69,White,23.0,yes,Female,e) Well above average,FL,ecig,no,2-3,no,no
+60-69,White,32.0,yes,Male,c) Average,FL,former,no,2-3,no,no
+50-59,White,31.0,yes,Female,c) Average,FL,former,no,>3,no,no
+30-39,Black,41.0,no,Male,c) Average,PA,never,no,>3,no,no
+40-49,White,18.0,no,Female,d) Above average,AZ,former,no,1,no,no
+50-59,White,27.0,no,Female,d) Above average,PA,former,no,>3,no,no
+60-69,White,26.0,yes,Female,d) Above average,PA,former,no,2-3,no,no
+60-69,White,40.0,no,Female,b) Below average,CA,never,yes,>3,yes,yes
+60-69,White,28.0,no,Female,d) Above average,FL,former,no,2-3,no,no
+30-39,Black,43.0,no,Female,d) Above average,TX,former,no,1,no,no
+40-49,White,29.0,yes,Male,d) Above average,CA,never,no,2-3,no,no
+30-39,White,27.0,no,Female,c) Average,MO,current,no,2-3,no,no
+30-39,Black,21.0,yes,Male,c) Average,CA,current,no,2-3,no,no
+70-79,White,26.0,yes,Male,d) Above average,CA,former,no,2-3,no,no
+40-49,White,32.0,no,Female,c) Average,CA,current,no,2-3,no,no
+40-49,White,34.0,yes,Female,d) Above average,FL,never,no,>3,no,no

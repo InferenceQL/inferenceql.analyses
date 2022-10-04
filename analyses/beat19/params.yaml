@@ -1,0 +1,49 @@
+dataset_name: beat19
+seed: 42
+sample_count: 12
+parallel:
+  # To limit the number of jobs GNU Parallel spawns use add the flag `--jobs n`.
+  flags: >-
+    --verbose
+nullify:
+  # Entries added here will be treated as null. For example, to treat "NaN" and
+  # "missing" as null uncomment the following two lines:
+  # - NaN
+  # - missing
+schema:
+  # Key/value pairs can be added here to explicitly override the inferred schema
+  # for each column. The available types are as follows: numerical, nominal, and ignore.
+  # For example, to force the "age" column to be treated as a
+  # numerical uncomment the following line:
+  BMI: numerical
+loom:
+  extra_passes: 1
+cgpm:
+  #iterations: 1
+  minutes: 30
+clojurecat:
+  iterations: 150
+qc:
+  # Set this to the number of synthetic samples desired in QC plots.
+  # When not set, the plots will display the same number of virual samples as
+  # observed data points.
+  sample_count: null
+  # Set this to specify the columns visualized in QC plots.
+  # When not set, up to 8 columns--taken from the schema--will be visualized.
+  # e.g. columns: ["foo", "bar", "baz"]
+  columns: null
+  # This limits the number of categories shown for categorical variables in
+  # 2-dimensional QC plots. Set this to null for no limit.
+  category_limit: 10
+mi:
+  configs:
+    # Set MI configs here. If not set, the configs are chosen at random.
+    # For example, to set the config for health_status.
+    # health_status: ["c) Average", "b) Below average"]
+database:
+  table_name: trial_participants
+  table_path: data/nullified.csv
+  model_name: synthetic_trial_participant_generator
+  model_path: data/xcat/complete/sample.0.edn
+  # model_path: data/xcat/merged.edn
+  # model_path: data/sppl/merged.json
